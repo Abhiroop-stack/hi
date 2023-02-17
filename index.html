@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>F1 QUIZ</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyAa7mXJO4tqayje1df1HaMXkGZVBhZBcss",
+  authDomain: "f1-quiz-24c94.firebaseapp.com",
+  databaseURL: "https://f1-quiz-24c94-default-rtdb.firebaseio.com",
+  projectId: "f1-quiz-24c94",
+  storageBucket: "f1-quiz-24c94.appspot.com",
+  messagingSenderId: "21493830070",
+  appId: "1:21493830070:web:09907410290c49ab6a3117"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Start.js"></script>
+    <script src="./js/career/Topic.js"></script>
+    <script src="./js/career/jumbled/Jumbled.js"></script>
+    <script src="./js/career/jumbled/Intro.js"></script>
+    <script src="./js/career/jumbled/JumbledGame.js"></script> 
+    <script src="./js/career/mcq/MCQ.js"></script>
+    <script src="./js/career/mcq/Intro2.js"></script>
+    <script src="./js/career/mcq/Q1.js"></script>
+    <script src="./js/career/mcq/Q2.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
